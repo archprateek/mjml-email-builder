@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "MJML Email Builder — 10times Design System",
   "private": true,
+  "scripts": {
+    "dev": "node dev-server.js"
+  },
   "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
     "mjml": "^4.18.0",
     "node-fetch": "^2.7.0"
   }
